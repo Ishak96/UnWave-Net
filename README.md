@@ -67,7 +67,11 @@ conda activate UnWaveNet
 
 **5.** Download and extract the [AAPM Compton Scattering Tomography Dataset](https://www.kaggle.com/datasets/ishak21/aapm-cst) from Kaggle.
 
-**6.** Download the forward and adjoint operators and store them in a folder named `radon`.
+**6.** Download the forward and adjoint operators and store them in a folder named `radon`. For each **D_K**, create a separate folder in `radon`; for example, **D_K = 100**:
+```bash
+mkdir radon
+mkdir radon/100
+```
 
 The table below lists the available forward and adjoint operators:
 
