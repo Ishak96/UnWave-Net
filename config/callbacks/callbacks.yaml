@@ -1,0 +1,27 @@
+display_callback:
+    _target_: src.callbacks.CSTDisplayCallback
+    every_n_epochs: 1
+    path: "epochs/"
+    sample_index: 100
+    hu_min: -1000
+    hu_max: 2000
+    rescale: False
+
+model_checkpoint:
+    _target_: pytorch_lightning.callbacks.ModelCheckpoint
+    monitor: "val_metrics/ssim"
+    mode: "max"
+    save_top_k: 1
+    save_last: True
+    verbose: True
+    dirpath: "saved_models/"
+    filename: "epoch{epoch}-ssim--{val_metrics/ssim:.4f}"
+    auto_insert_metric_name: False
+
+learning_rate_monitor: 
+    _target_: pytorch_lightning.callbacks.LearningRateMonitor
+    logging_interval: 'epoch'
+
+device_stats_monitor:
+    _target_: pytorch_lightning.callbacks.DeviceStatsMonitor
+    cpu_stats: False

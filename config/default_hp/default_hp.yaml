@@ -1,0 +1,17 @@
+resume_from_checkpoint: null
+
+# InceptionMixer args
+num_cascades: 12
+size: 256
+in_chans: 1
+
+# Optimizer args
+lr: 0.0001
+max_epochs: 50
+
+# physics args
+num_detectors: 150
+emax: 100
+poission_level: 1e6
+gaussian_level: 0.05
+add_noise: False

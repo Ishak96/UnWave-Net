@@ -1,0 +1,5 @@
+_target_: src.physics.NCCCST
+matrix_path: radon/${default_hp.num_detectors}
+size: ${default_hp.size}
+num_detectors: ${default_hp.num_detectors}
+emax: ${default_hp.emax}

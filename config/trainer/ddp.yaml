@@ -1,0 +1,8 @@
+defaults:
+  - default.yaml
+
+strategy: "ddp"
+
+sync_batchnorm: True
+accelerator: "cuda"
+devices: -1

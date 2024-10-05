@@ -1,0 +1,13 @@
+_target_: src.pl_modules.UnWaveNetModule
+physics_model: ${physics}
+
+num_cascades: ${default_hp.num_cascades}
+wavename: 'haar'
+dim: 48
+in_chans: ${default_hp.in_chans}
+img_size: ${default_hp.size}
+
+lr: ${default_hp.lr}
+weight_decay: 0.01
+
+save_targets: False

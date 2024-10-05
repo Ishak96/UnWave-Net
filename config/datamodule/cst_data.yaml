@@ -1,0 +1,10 @@
+_target_: src.pl_modules.CSTDataModule
+json_path: "src/json/mayo.json" 
+size: ${default_hp.size}
+num_detectors: ${default_hp.num_detectors}
+emax: ${default_hp.emax}
+add_noise: ${default_hp.add_noise}
+poission_level: ${default_hp.poission_level}
+gaussian_level: ${default_hp.gaussian_level}
+batch_size: 1
+num_workers: 4
