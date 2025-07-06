@@ -43,12 +43,12 @@ If you don't have Conda installed, you can either install it manually or opt for
 
 To install Mamba, follow this link to Mambaforge. Below are the latest installers with Mamba in the base environment:
 
-| Operating System | Architecture          | Download Link                                                                                      |
-|------------------|-----------------------|---------------------------------------------------------------------------------------------------|
-| Linux            | x86_64 (amd64)        | [Mambaforge-Linux-x86_64](https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh)      |
-| macOS            | x86_64                | [Mambaforge-MacOSX-x86_64](https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-MacOSX-x86_64.sh)    |
-| macOS            | arm64 (Apple Silicon) | [Mambaforge-MacOSX-arm64](https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-MacOSX-arm64.sh)      |
-| Windows          | x86_64                | [Mambaforge-Windows-x86_64](https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Windows-x86_64.exe)  |
+| Operating System | Architecture          | Download Link                                                                                                                     |
+| ---------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Linux            | x86\_64 (amd64)       | [Miniforge3‑Linux‑x86\_64.sh](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh)       |
+| macOS            | x86\_64               | [Miniforge3‑MacOSX‑x86\_64.sh](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh)     |
+| macOS            | arm64 (Apple Silicon) | [Miniforge3‑MacOSX‑arm64.sh](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh)        |
+| Windows          | x86\_64               | [Miniforge3‑Windows‑x86\_64.exe](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe) |
 
 After installing Mambaforge, verify that it is functioning correctly by running the following command in your terminal:
 
